@@ -15,6 +15,16 @@ Kegunaannya:
 3. Keamanan jaringan untuk mendeteksi aktivitas mencurigakan.
 4. Pembelajaran jaringan untuk memahami cara kerja protokol seperti TCP, HTTP, DNS, dll
 
-## Langkah Percobaan Modul 1 (Install wireshark)
-1. Install wireshark melalui browser
+# Langkah Percobaan Modul 1 (Install wireshark)
+1. Install wireshark melalui browser, pilih yang windows x64 installer (jika menggunakan windows)
 ![tampilan](../assets/image/Week1%20Download%20(1).png)
+
+2. Jika suda lanjukan dengan click open file pada wireshark yang sudah di install tadi dan click next hingga complete
+![tampilan](../assets/image/Week1%20Download%20(2).png)
+![tampilan](../assets/image/Week1%20Download%20(3).png)
+![tampilan](../assets/image/Week1%20Download%20(4).png)
+![tampilan](../assets/image/Week1%20Download%20(5).png)
+![tampilan](../assets/image/Week1%20Download%20(6).png)
+
+3. Jika sudah bisa langsunga buka wireshark dan akan muncul tampilan seperti pada gambar
+![tampilan](../assets/image/week1%20Download%20(7).png)
