@@ -14,3 +14,7 @@ Kegunaannya:
 2. Troubleshooting jaringan (mencari penyebab jaringan lambat atau error).
 3. Keamanan jaringan untuk mendeteksi aktivitas mencurigakan.
 4. Pembelajaran jaringan untuk memahami cara kerja protokol seperti TCP, HTTP, DNS, dll
+
+## Langkah Percobaan Modul 1 (Install wireshark)
+1. Install wireshark melalui browser
+![tampilan](../assets/image/Week1%20Download%20(1).png)
