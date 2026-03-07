@@ -31,7 +31,7 @@ pada bagian ini user bisa memilih mau di letakkan dimana untuk wiresharknya
 
 ![tampilan](../assets/image/Week1%20Download%20(6).png)
 
-3. Jika sudah bisa langsunga buka wireshark dan akan muncul tampilan seperti pada gambar
+3. Jika sudah bisa langsung buka wireshark dan akan muncul tampilan seperti pada gambar
 ![tampilan](../assets/image/week1%20Download%20(7).png)
 
 
