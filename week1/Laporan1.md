@@ -26,7 +26,7 @@ Kegunaannya:
 
 ![tampilan](../assets/image/Week1%20Download%20(4).png)
 
- pada bagian ini user bisa memilih mau di letakkan dimana untuk wiresharknya
+pada bagian ini user bisa memilih mau di letakkan dimana untuk wiresharknya
 ![tampilan](../assets/image/Week1%20Download%20(5).png)
 
 ![tampilan](../assets/image/Week1%20Download%20(6).png)
@@ -41,19 +41,19 @@ Pada modul ini mempelajari bagaimana cara mencari atau memfilter suatu protokol 
 ## Langkah uji coba
 1. Buka browser dan mengakses alamat web yang berbasis HTTP (contoh:http://gaia.cs.umass.edu/wireshark-labs/HTTPwireshark-file1.html)
 
- gambar setalah link tersebut di buka pada browser
+gambar setalah link tersebut di buka pada browser
 ![tampilan](../assets/image/week1%20Mod%203.png)
 
 2. Buka wireshark, pada tampilan awal pilih wifi (jika menggunakan wifi semisal menggunakan LAN bisa pilih tulisan ethernet)
 ![tampilan](../assets/image/week1%20Download%20(7).png)
 
- Tampilan setelah memilih pilihan wifi
+Tampilan setelah memilih pilihan wifi
 ![tampilan](../assets/image/week1%20Mod%203%20(2).png)
 
 3. jika sudah pada tampilan tersebut di bagian atas ada kolom yang bisa di gunakan untuk filter suatu protokol, pada kolom tersebut bisa ketik "HTTP" untuk mempermudah mencari protokol yang ingin di cari
 ![tampilan](../assets/image/week1%20Mod%203%20(3).png)
 
- Tmpilan setelah mencari protokol HTTP
+Tmpilan setelah mencari protokol HTTP
 ![tampilan](../assets/image/week1%20Mod%203%20(4).png)
 
 # Detail paket
