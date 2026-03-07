@@ -53,7 +53,7 @@ Tampilan setelah memilih pilihan wifi
 3. jika sudah pada tampilan tersebut di bagian atas ada kolom yang bisa di gunakan untuk filter suatu protokol, pada kolom tersebut bisa ketik "HTTP" untuk mempermudah mencari protokol yang ingin di cari
 ![tampilan](../assets/image/week1%20Mod%203%20(3).png)
 
-Tmpilan setelah mencari protokol HTTP
+Tampilan setelah mencari protokol HTTP
 ![tampilan](../assets/image/week1%20Mod%203%20(4).png)
 
 # Detail paket
