@@ -3,7 +3,7 @@ Nama    : Yoga Krisna Putra
 Nim     : 103072400104
 Kelas   : IF 04-05
 Matkul  : Jaringan Komputer
-____________________________________________
+
 
 Instalasi wireshark dan materi tentang HTTP
 
