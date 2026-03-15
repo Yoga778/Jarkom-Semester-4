@@ -15,7 +15,7 @@ Pada week 2 tetap melanjutkan materi pada modul 3 yaitu HTTP tetapi pada bagian 
 4. Gunakan cara seperti pada week sebelumnya yaitu bagian untuk filter atau mencari HTTP
 ![tampilan](../assets/image/week1%20Mod%203%20(3).png)
 
-5. Stop capture dan pada paket yang di pilih akan muncul rincian pesan
+5. Stop capture dan pada paket yang di pilih akan muncul rincian paket
 ![tampilan](../assets/image/week2%20mod3.2%20(2).png)
 
 ## Uji coba Web not found
@@ -28,7 +28,7 @@ pada percobaan ini hanya sekedar uji coba bagaimana jika mencari menggunakan ala
 2. Lakukan filter untuk mencari HTTP
 ![tampilan](../assets/image/week1%20Mod%203%20(3).png)
 
-3. Untuk langkah selanjutnya saya akan mencoba menggunakan link yang menggunakan HTTP tetapi link tersebut saya tambahkan beberapa huruf acak hanya untuk uji coba, saya menggunakan link http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.htmlregergev
+3. Untuk langkah selanjutnya saya akan mencoba menggunakan link yang menggunakan HTTP tetapi link tersebut saya tambahkan beberapa huruf acak hanya untuk uji coba, Saya menggunakan link http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file1.htmlregergev
 ![tampilan](../assets/image/web%20not%20found.png)
 
 4. Setelah search link tersebut bisa buka wireshark lagi pada bagian HTTP akan muncul keterangan 404 atau eror
@@ -40,3 +40,28 @@ Pada modul ini berfokus pada Retrieving Long Document secara singkatnya proses m
 ## Langkah-langkah percobaan 
 1. Buka aplikasi wireshark dan pilih WIFI lalu lakukan proses capture packet
 ![tampilan](../assets/image/week1%20Mod%203%20(2).png)
+
+2. Buka browser yang biasanya di gunakan lalu masukkan link ini: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file3.html
+![tampilan](../assets/image/Retrieving%20Long%20Documents.png)
+
+3. Gunakan filter HTTP pada wireshark untuk melihat paket HTTP
+![tampilan](../assets/image/week1%20Mod%203%20(3).png)
+
+4. Stop capture paket dan pilih salah satu paket untuk melihat isi dari paket tersebut secara detail
+![tampilan](../assets/image/Retrieving%20Long%20Documents%20(2).png)
+
+# Modul 3.4
+Pada modul ini mempelajari tentang HTML Documents dengan Embedded Objects dokumen pengertian singkatnya HTML yang memiliki objek tambahan di dalamnya seperti gambar, CSS, JavaScript, atau file lain, yang saat dibuka akan menyebabkan browser mengirim beberapa request HTTP yang dapat terlihat di Wireshark.
+
+## Langkah-langkah percobaan
+1. Buka aplikasi wireshark dan pilih WIFI lalu lakukan proses capture packet
+![tampilan](../assets/image/week1%20Mod%203%20(2).png)
+
+2. Buka browser yang biasanya di gunakan lalu masukkan link ini: http://gaia.cs.umass.edu/wireshark-labs/HTTP-wireshark-file4.html
+![tampilan](..//assets/image/HTML%20Documents%20dengan%20Embedded%20Objects.png)
+
+3. Setelah itu kembali ke wireshark dan gunakan filter HTTP pada wireshark untuk melihat paket HTTP
+![tampilan](../assets/image/week1%20Mod%203%20(3).png)
+
+4. Setelah membuka link tersebut di browser lalu cek di wireshark akan terlihat tulisan jpeg dikarenakan pada link tersebut saat di search terdapat gambar jadi pada wireshark menampilkan data atau menditeksi pada alamat tersebut terdapat gambar
+![tampilan](../assets/image/HTML%20Documents%20dengan%20Embedded%20Objects%20(2).png)
