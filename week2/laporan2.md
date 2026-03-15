@@ -65,3 +65,21 @@ Pada modul ini mempelajari tentang HTML Documents dengan Embedded Objects dokume
 
 4. Setelah membuka link tersebut di browser lalu cek di wireshark akan terlihat tulisan jpeg dikarenakan pada link tersebut saat di search terdapat gambar jadi pada wireshark menampilkan data atau menditeksi pada alamat tersebut terdapat gambar
 ![tampilan](../assets/image/HTML%20Documents%20dengan%20Embedded%20Objects%20(2).png)
+
+
+# Modul 3.5
+Pada modul ini menjelaskan tentang HTTP Authentication secara singkatnya HTTP Authentication adalah proses autentikasi (login) yang terjadi saat client mengakses website yang membutuhkan username dan password, dan proses tersebut bisa terlihat di paket HTTP yang ditangkap oleh Wireshark.
+
+## Langkah-langkah percobaan
+1. Buka aplikasi wireshark dan pilih WIFI lalu lakukan proses capture packet
+![tampilan](../assets/image/week1%20Mod%203%20(2).png)
+
+2. Buka browser yang biasanya di gunakan lalu masukkan link ini: http://gaia.cs.umass.edu/wireshark-labs/protected_pages/HTTP-wireshark-file5.html
+![tampilan](../assets/image/HTTP%20Authentication.png)
+akan muncul perintah di minta untuk masukkan username dan password
+
+3. Masukkan username: wireshark-students dan password: network, setelah masukkan password lalu tekan enter
+![tampilan](..//assets/image/HTTP%20Authentication%20(2).png)
+
+4. ketika berhasil pada wireshark akan muncul tulisan Unauthorized di salahsatu paket
+![tampilan](..//assets/image/HTTP%20Authentication%20(3).png)
