@@ -1,5 +1,5 @@
 # MODUL 3
-## Modul 3.2
+## Modul 3.2 Basic HTTP GET/response interaction 
 Pada week 2 tetap melanjutkan materi pada modul 3 yaitu HTTP tetapi pada bagian ini akan membahas hal lain yaitu Basic HTTP GET/response interaction.
 
 ## Langkah-langkah percobaan
@@ -34,7 +34,8 @@ pada percobaan ini hanya sekedar uji coba bagaimana jika mencari menggunakan ala
 4. Setelah search link tersebut bisa buka wireshark lagi pada bagian HTTP akan muncul keterangan 404 atau eror
 ![tampilan](../assets/image/web%20not%20found%20(2).png)
 
-# Modul 3.3
+
+# Modul 3.3 Retrieving Long Documents 
 Pada modul ini berfokus pada Retrieving Long Document secara singkatnya proses mengambil data berukuran besar (seperti file, halaman web, atau dokumen panjang) dari hasil capture paket jaringan yang dikirim melalui protokol seperti HTTP, TCP, atau FTP.
 
 ## Langkah-langkah percobaan 
@@ -50,7 +51,8 @@ Pada modul ini berfokus pada Retrieving Long Document secara singkatnya proses m
 4. Stop capture paket dan pilih salah satu paket untuk melihat isi dari paket tersebut secara detail
 ![tampilan](../assets/image/Retrieving%20Long%20Documents%20(2).png)
 
-# Modul 3.4
+
+# Modul 3.4 HTML Documents dengan Embedded Objects
 Pada modul ini mempelajari tentang HTML Documents dengan Embedded Objects dokumen pengertian singkatnya HTML yang memiliki objek tambahan di dalamnya seperti gambar, CSS, JavaScript, atau file lain, yang saat dibuka akan menyebabkan browser mengirim beberapa request HTTP yang dapat terlihat di Wireshark.
 
 ## Langkah-langkah percobaan
@@ -67,7 +69,7 @@ Pada modul ini mempelajari tentang HTML Documents dengan Embedded Objects dokume
 ![tampilan](../assets/image/HTML%20Documents%20dengan%20Embedded%20Objects%20(2).png)
 
 
-# Modul 3.5
+# Modul 3.5 HTTP Authentication
 Pada modul ini menjelaskan tentang HTTP Authentication secara singkatnya HTTP Authentication adalah proses autentikasi (login) yang terjadi saat client mengakses website yang membutuhkan username dan password, dan proses tersebut bisa terlihat di paket HTTP yang ditangkap oleh Wireshark.
 
 ## Langkah-langkah percobaan
