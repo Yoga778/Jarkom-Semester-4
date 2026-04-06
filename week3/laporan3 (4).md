@@ -28,6 +28,8 @@ nslookup adalah sebuah perintah atau tool yang digunakan untuk mencari dan menam
 3. Mencari mail server Yahoo melalui DNS tertentu
 - Perintah : nslookup -type=MX gmail.com dns0.cam.ac.uk
 ![tampilan](../assets/image/Pertanyaan%20nslookup%203.png)
+
+
 # Modul 4.3 Ipconfig
 ipconfig adalah perintah pada sistem operasi Windows yang digunakan untuk menampilkan dan mengelola konfigurasi jaringan pada komputer, seperti alamat IP, subnet mask, dan default gateway, sehingga membantu pengguna mengetahui kondisi dan pengaturan koneksi jaringan yang sedang digunakan.
 ## Langkah - Langkah Percobaan
@@ -45,15 +47,40 @@ ipconfig adalah perintah pada sistem operasi Windows yang digunakan untuk menamp
 4. Buka cmd lalu ketik "ipconfig /flushdns" lalu ENTER. Fungsinya untuk menghapus dns yang sudah di buka dalam device yang di gunakan 
 ![tampilan](../assets/image/ipconfig%20(5).png)
 
+
 # 4.4 Tracing DNS dengan Wireshark
-A. Analisis DNS Request dan Response pada Akses Website (www.ietf.org)
+Mempelajari proses memantau dan menganalisis paket data DNS yang dikirim dan diterima oleh komputer melalui jaringan, sehingga pengguna dapat melihat bagaimana permintaan pencarian domain (DNS query) dikirim ke server dan bagaimana responsnya diterima, yang berguna untuk memahami alur kerja DNS serta membantu dalam proses troubleshooting jaringan.
+
+# A. Analisis DNS Request dan Response pada Akses Website (www.ietf.org)
 
 ## Langkah - Langkah Percobaan
-1. Buka cmd lalu ketik "IPCONFIG" untuk melihat IP lalu copy IP pada laptop masing-masing (192.168.0.100). lalu buka wireshark
-![tampilan](../assets/image/tracing%20dns.png)
+1. Buka cmd lalu ketik "IPCONFIG" untuk melihat IP lalu copy IP pada laptop masing-masing (10.218.11.201). lalu buka wireshark
+![tampilan](../assets/image/Tracing%20Dns.png)
 
-2. Setelah buka wireshark pilih jaringan yang digunakan (saya menggunakan wifi). Setelah memilih wifi click bagian filter lalu ketik ip.addr == 192.168.0.100 (sesuai hasil di cmd)
+2. Setelah buka wireshark pilih jaringan yang digunakan (saya menggunakan wifi). Setelah memilih wifi click bagian filter lalu ketik ip.addr == 10.218.11.201 (sesuai hasil di cmd)
+![tampilan](../assets/image/Tracing%20Dns%20(2).png)
 
 3. Buka browser http://www.ietf.org/ 
+![tampilan](../assets/image/Tracing%20Dns%20(3).png)
 
-4. Tambahkan filter lagi ip.addr == 10.218.0.23 && dns.qry.name.contains "ietf"
+4. Tambahkan filter lagi ip.addr == 10.218.11.201 && dns.qry.name contains "ietf"
+![tampilan](../assets/image/Tracing%20Dns%20(4).png)
+
+## Pertanyaan
+1. Apakah DNS menggunakan UDP atau TCP?
+![tampilan](../assets/image/Pertanyaan%20tracing%20DNS%201.png)
+Dari percobaan yang di lakukan terilhat bahwa DNS menggunakan UDP
+
+2. Port tujuan pada DNS request & port sumber pada DNS response
+![tampilan](../assets/image/Pertanyaan%20tracing%20DNS%201.png)
+- DNS request = Source Port (client): 60621 & Destination Port (server): 53
+- DNS RESPONSE = Source Port (server): 53 & Destination Port (client): 60621
+
+# B. Analisis DNS Menggunakan Perintah nslookup (www.mit.edu)
+
+## Langkah - Langkah percobaan
+1. Buka CMD ketikan perintah nslookup www.mit.edu
+![tampilan](../assets/image/Analisis%20DNS.png)
+
+2. Buka wireshark lalu pilih jaringan yang digunakan, setelah itu pada bagian filter ketik DNS 
+![tampilan](../assets/image/Analisis%20DNS%20(2).png)
