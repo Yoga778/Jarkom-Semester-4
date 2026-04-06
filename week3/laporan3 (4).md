@@ -69,11 +69,14 @@ Mempelajari proses memantau dan menganalisis paket data DNS yang dikirim dan dit
 ## Pertanyaan
 1. Apakah DNS menggunakan UDP atau TCP?
 ![tampilan](../assets/image/Pertanyaan%20tracing%20DNS%201.png)
+
 Dari percobaan yang di lakukan terilhat bahwa DNS menggunakan UDP
 
 2. Port tujuan pada DNS request & port sumber pada DNS response
 ![tampilan](../assets/image/Pertanyaan%20tracing%20DNS%201.png)
+
 - DNS request = Source Port (client): 60621 & Destination Port (server): 53
+
 - DNS RESPONSE = Source Port (server): 53 & Destination Port (client): 60621
 
 # B. Analisis DNS Menggunakan Perintah nslookup (www.mit.edu)
@@ -84,3 +87,22 @@ Dari percobaan yang di lakukan terilhat bahwa DNS menggunakan UDP
 
 2. Buka wireshark lalu pilih jaringan yang digunakan, setelah itu pada bagian filter ketik DNS 
 ![tampilan](../assets/image/Analisis%20DNS%20(2).png)
+
+## Pertanyaan
+ 1. Port tujuan request dan port sumber dari response
+
+- DNS request = destination: 53
+![tampilan](../assets/image/pertanyaan%20analisis%20Dns%201%20req.png)
+
+- DNS response = Source: 53
+![tampilan](../assets/image/pertanyaan%20analisis%20DNS%201.png)
+
+2. Alamat IP request
+![tampilan](../assets/image/Pertanyaan%20Analisis%20dns%202.png)
+
+Pada perjobaan tersebut terlihat bahwa request DNS dikirim ke alamat IP 10.217.7.77
+
+3. Type dan answer request
+![tampilan](../assets/image/Pertanyaan%20analisis%20dns%203.png)
+
+Pada percobaan yang di lakukan terlihat bawa type yang muncul adalah AAAA (IPv6 Address record) -> mencari alamat IPv6. Pesan ini tidak mengandung jawaban karena masih berupa permintaan (query) untuk mencari alamat IPv6 dari domain www.mit.edu
