@@ -106,3 +106,53 @@ Pada perjobaan tersebut terlihat bahwa request DNS dikirim ke alamat IP 10.217.7
 ![tampilan](../assets/image/Pertanyaan%20analisis%20dns%203.png)
 
 Pada percobaan yang di lakukan terlihat bawa type yang muncul adalah AAAA (IPv6 Address record) -> mencari alamat IPv6. Pesan ini tidak mengandung jawaban karena masih berupa permintaan (query) untuk mencari alamat IPv6 dari domain www.mit.edu
+
+# C. Analisis DNS Record NS Menggunakan nslookup (mit.edu)
+
+## Langkah - Langkah Percobaan
+1. Buka CMD ketikan perintah nslookup -type=NS mit.edu
+![tampilan](../assets/image/Poin%20C.png)
+
+2. Buka Wireshark lalu pilih wifi, setelah itu pada bagian filter ketik dns untuk memunculkan bagian dns saja
+![tampilan](../assets/image/Poin%20C%20(2).png)
+
+3. Ambil data dari Standard query (request) dan Standard query response dari NS mit.edu
+![tampilan](../assets/image/Poin%20C%20(2).png)
+
+## Pertanyaan 
+1. Alamat IP request
+![tampilan](../assets/image/Pertanyaan%201%20Poin%20C.png)
+
+2. Type dan answers request
+![tampilan](../assets/image/Pertanyaan%202%20Poin%20C.png)
+
+Pada percobaan bisa terlihat bahwa Type request dari DNS adalah NS yang artinya tidak mengandung jawaban karena hanya permintaan
+
+3. Answer Response
+![tampilan](../assets/image/Pertanyaan%203%20Poin%20C.png)
+
+# D. Analisis DNS Menggunakan Server Tertentu (www.aiit.or.kr bitsy.mit.edu)
+
+## Langkah - Langkah Percobaan
+1. Buka CMD ketikan nslookup www.aiit.or.kr bitsy.mit.edu
+![tampilan](../assets/image/Poin%20D.png)
+
+2. Buka Wireshark lalu pilih wifi, setelah itu pada bagian filter ketik dns untuk memunculkan bagian dns saja
+![tampilan](../assets/image/Poin%20C%20(2).png)
+
+3. Ambil data dari Standard query (request) dari www.aiit.or.kr
+![tampilan](../assets/image/Poin%20D%20(2).png)
+
+## Pertanyaan
+1. Alamat IP request
+![tampilan](../assets/image/Pertanyaan%201%20Poin%20D.png)
+
+Pesan permintaan DNS dikirim ke alamat IP 18.0.72.3. Alamat tersebut merupakan server bitsy.mit.edu yang ditentukan secara manual pada perintah nslookup, sehingga bukan merupakan DNS server lokal
+
+2. Type dan answers request
+![tampilan](../assets/image/Pertanyaan%202%20Poin%20D.png)
+
+Tipe DNS request adalah A (Address Record). Pesan ini tidak mengandung jawaban karena hanya berupa permintaan
+
+3. Answers response Berdasarkan hasil pada Command Prompt, terlihat bahwa terjadi “DNS request timed out”, yang menunjukkan bahwa server DNS tidak merespon permintaan yang dikirimkan
+![tampilan](../assets/image/Pertanyaan%203%20Poin%20D.png)
