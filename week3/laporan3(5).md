@@ -25,6 +25,6 @@ Pada percobaan terdapat 4 field yang tersedia: Source port, Destination port, Le
 
 3. Lenght 
 ![tampilan](../assets/image/Pertantaan%203%20MOD%205.png)
-Pada gambar yang tertera terlihat bahwa Lenght memiliki panjang 58 yang artinya UDP Payload + Header UDP = 50 + 8 = 58, dan di dapatkan UDP Lenght 58 itu. Jadi, nilai “Length” benar menunjukkan ukuran keseluruhan paket UDP (header + payload).
+- Pada gambar yang tertera terlihat bahwa Lenght memiliki panjang 58 yang artinya UDP Payload + Header UDP = 50 + 8 = 58, dan di dapatkan UDP Lenght 58 itu. Jadi, nilai “Length” benar menunjukkan ukuran keseluruhan paket UDP (header + payload).
 
 4. 
