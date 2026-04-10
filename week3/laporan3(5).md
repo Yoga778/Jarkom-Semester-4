@@ -41,7 +41,9 @@ Pada gambar yang tertera terlihat bahwa Lenght memiliki panjang 58 yang artinya 
 - Nomor protokol untuk UDP adalah 17 dalam desimal, yang dalam notasi heksadesimal ditulis sebagai 0x11.
 ![tampilan](../assets/image/Pertanyaan%206%20UDP.png)
 
-7. ![tampilan](../assets/image/Pertanyaan%207%20UDP%20(1).png) ![tampilan](../assets/image/Pertanyaan%207%20UDP%20(2).png) 
+7. Hubungan port
+![tampilan](../assets/image/Pertanyaan%207%20UDP%20(1).png) 
+![tampilan](../assets/image/Pertanyaan%207%20UDP%20(2).png) 
 
 - Berdasarkan gambar:
 
