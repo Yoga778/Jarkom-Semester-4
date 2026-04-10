@@ -69,6 +69,8 @@ Selanjutnya, setelah proses upload selesai, server mengirimkan respon HTTP/1.1 2
 
 
 6. Buffer receiver
+
+
 ![tampilan](../assets/image/Pertanyaan%206%20Uji%20coba%20TCP.png)
 
 
