@@ -1,5 +1,5 @@
 # MODUL 5 UDP
-
+UDP (User Datagram Protocol) adalah protokol pada layer transport yang digunakan untuk mengirimkan data antar komputer dalam jaringan tanpa koneksi (connectionless).
 
 ## Langkah - Langkah Percobaan
 1. Download file http://gaia.cs.umass.edu/wireshark-labs/wireshark-traces.zip
