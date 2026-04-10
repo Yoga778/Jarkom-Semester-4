@@ -29,4 +29,28 @@ Pada percobaan terdapat 4 field yang tersedia: Source port, Destination port, Le
 
 Pada gambar yang tertera terlihat bahwa Lenght memiliki panjang 58 yang artinya UDP Payload + Header UDP = 50 + 8 = 58, dan di dapatkan UDP Lenght 58 itu. Jadi, nilai “Length” benar menunjukkan ukuran keseluruhan paket UDP (header + payload).
 
-4. 
+4. Jumlah maksimum byte UDP 
+- Field Length pada UDP menggunakan ukuran 16 bit (2 byte), sehingga nilai maksimalnya adalah:
+- 2 − 1 = 65.535 byte
+- Karena Length = header (8 byte) + payload, maka:
+- Payload maksimum = 65.535 − 8 = 65.527 byte
+
+5. Nomor port terbesar yang dapat digunakan sebagai source port pada UDP adalah 65.535, karena field port pada UDP berukuran 16 bit sehingga nilai maksimumnya adalah 2^16 − 1.
+
+6. Berdasarkan bagian “Protocol” pada header IP di gambar (terlihat Protocol: UDP (17)), maka:
+- Nomor protokol untuk UDP adalah 17 dalam desimal, yang dalam notasi heksadesimal ditulis sebagai 0x11.
+![tampilan](../assets/image/Pertanyaan%206%20UDP.png)
+
+7. ![tampilan](../assets/image/Pertanyaan%207%20UDP%20(1).png) ![tampilan](../assets/image/Pertanyaan%207%20UDP%20(2).png) 
+
+- Berdasarkan gambar:
+
+- Paket 1 (request):
+Source Port = 4334, Destination Port = 161
+
+- Paket 2 (reply):
+Source Port = 161, Destination Port = 4334
+
+- Hubungannya adalah nomor port pada paket kedua merupakan kebalikan (ditukar) dari paket pertama, yaitu source port menjadi destination port, dan destination port menjadi source port.
+
+- Jadi, dapat disimpulkan bahwa pada paket balasan UDP, port pengirim dan penerima saling bertukar posisi karena arah komunikasi juga berbalik.
