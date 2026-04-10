@@ -42,8 +42,7 @@ Pada gambar yang tertera terlihat bahwa Lenght memiliki panjang 58 yang artinya 
 ![tampilan](../assets/image/Pertanyaan%206%20UDP.png)
 
 7. Hubungan port
-![tampilan](../assets/image/Pertanyaan%207%20UDP%20(1).png) 
-![tampilan](../assets/image/Pertanyaan%207%20UDP%20(2).png) 
+![tampilan](../assets/image/Pertanyaan%207%20UDP%20(1).png) ![tampilan](../assets/image/Pertanyaan%207%20UDP%20(2).png) 
 
 - Berdasarkan gambar:
 
