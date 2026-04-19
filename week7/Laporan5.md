@@ -81,10 +81,9 @@ while running:
         connectionSocket.send(ModifiedMessage.encode())
 
     connectionSocket.close() # tutup koneksi dengan client
+    serverSocket.close() # tutup socket server
 
-serverSocket.close() # tutup socket server
-
-![tampilan](../Jarkom-Semester-4/assets/image/Mod7.png)
+![tampilan](../assets/image/Mod7.png)
 
 1. Server dijalankan dulu melalui terminal
 2. Server menunggu koneksi
@@ -186,7 +185,7 @@ finally:
     serverSocket.close()
     sys.exit(0)
 
-![tampilan](../Jarkom-Semester-4/assets/image/MOd7%20(2).png)
+![tampilan](../assets/image/MOd7%20(2).png)
 
 - Server dijalankan
 - Client mengirim pesan ke server
