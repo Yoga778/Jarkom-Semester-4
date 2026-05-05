@@ -4,7 +4,7 @@ Web server adalah bagian penting dalam sistem komunikasi berbasis internet. Fung
 ## Langkah - Langkah membuat web sederhana
 1. Membuat file server.py
 2. Tulis code
-'''
+```
 from socket import *
 import threading
 
@@ -63,12 +63,12 @@ while True:
         args=(connectionSocket,)
     )
     thread.start()
-'''
+```
 
 3. Buat file index.html di folder yang sama
 4. Isi dalam file tersebut
 
-'''
+```
 <html>
 <head>
     <title>Test Server</title>
@@ -78,16 +78,18 @@ while True:
     <p>Ini hasil server Python TCP</p>
 </body>
 </html>
-'''
+```
 
 5. Setelah itu jalankan file server tadi terlebih dahulu 
 6. Buka browser ketikan URL: http://localhost:6799/Index.html
 untuk menampilakn output yang di buat di file yang index.html
-![tampilan](../Jarkom-Semester-4/assets/image/week9.png)
+<img width="1919" height="1023" alt="week9" src="https://github.com/user-attachments/assets/362ceaf3-bb9f-4271-88ed-7acfeaae7026" />
+
 
 7. Buka browser ketik URL: http://localhost:6799/loka.html
 pada bagian ini akan muncul 404 atau eror karena file html tidak sesuai nama
-![tampilan](../Jarkom-Semester-4/assets/image/week9%20(2).png)
+<img width="1919" height="1032" alt="week9 (2)" src="https://github.com/user-attachments/assets/e877986d-a7eb-4869-b2cf-50f99c232949" />
+
 
 
 # Latihan
@@ -96,9 +98,9 @@ pada bagian ini akan muncul 404 atau eror karena file html tidak sesuai nama
 
 2. buat file index.html lalu ketik
 
-'''
+```
 <h1>hallow</h1>
-'''
+```
 
 3. setelah itu sama seperti proses sebelumnya yaitu menjalankan file server dulu lalu masukkan url yang sama seperti sebelumnya untuk memunculkan tampilan pada file index.html
-![tampilan](../Jarkom-Semester-4/assets/image/week9%20(3).png)
+<img width="1918" height="1029" alt="week9 (3)" src="https://github.com/user-attachments/assets/6c2bb77f-b9c8-4b7a-8f25-591661b85293" />
