@@ -113,7 +113,5 @@ IPv6 (Internet Protocol version 6) merupakan generasi terbaru dari protokol IP y
 ![tampilan](../assets/image/Mod10%20(5).png)
 
 Berdasarkan hasil capture di Wireshark, terlihat adanya paket yang menggunakan protokol IPv6. Hal ini bisa dilihat dari detail paket yang menampilkan Internet Protocol Version 6. Alamat source dan destination yang digunakan juga memakai format heksadesimal dengan tanda titik dua (:) yang menjadi ciri khas IPv6.
-
 Pada bagian Next Header, paket diketahui menggunakan protokol TCP untuk proses komunikasi data. Paket tersebut dikirim ke port 443 yang biasanya digunakan untuk layanan HTTPS atau akses website secara aman. Selain itu, terdapat juga keterangan TCP Retransmission yang menandakan adanya pengiriman ulang paket karena paket sebelumnya belum diterima dengan sempurna.
-
 Dari hasil pengamatan tersebut, dapat diketahui bahwa jaringan sudah menggunakan IPv6 dan komunikasi yang terjadi dipakai untuk mengakses layanan web melalui koneksi HTTPS.
