@@ -21,7 +21,7 @@ Proses DORA terjadi ketika sebuah perangkat ingin terhubung ke jaringan tetapi b
 ## Langkah-Langkah Percobaan
 1. Download dan ekstrak file http://gaia.cs.umass.edu/wireshark-labs/wireshark-traces.zip
 2. Setelah extrak buka file tersebut ke dalam wireshark dan gunakan filter dhcp untuk filter bagian dhcp saja
-![tampilan](../Jarkom-Semester-4/assets/image/week11.png)
+![tampilan](../assets/image/week11.png)
 
 ## Tahapan DORA pada DHCP
 
