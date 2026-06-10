@@ -39,7 +39,8 @@ Selanjutnya, setelah proses upload selesai, server mengirimkan respon HTTP/1.1 2
 1. Download dan extrak file http://gaia.cs.umass.edu/wireshark-labs/wireshark-traces.zip
 
 2. Buka file yang sudah di extrak tadi di dalam wireshark
-![tampilan](../assets/image/Uji%20Coba%20TCP.png)
+<img width="1919" height="1025" alt="Screenshot 2026-06-10 214649" src="https://github.com/user-attachments/assets/bb97a089-b519-4022-940a-1e79fc0984c5" />
+
 
 ## Pertanyaan 
 1. Nomor urut SYN, mencari data di filter tcp.flags.syn == 1 && tcp.flags.ack == 0
